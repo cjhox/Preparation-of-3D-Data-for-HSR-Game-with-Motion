@@ -1,0 +1,550 @@
+﻿Log file open, 10/01/16 10:16:40
+LogInit:Display: Running engine for game: mitCar
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1405395129) SRandInit(-1405395129).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.140521
+LogPluginManager: Loaded Plugin Paper2D, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From E:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3142249
+LogInit: Engine Version: 4.13.1-3142249+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3142249
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Sep 28 2016 02:12:12
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: E:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.10.01-08.16.40:518][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.01-08.16.40:518][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.01-08.16.40:569][  0]LogInit: Computer: CJHOX-LAPTOP
+[2016.10.01-08.16.40:569][  0]LogInit: User: Joel
+[2016.10.01-08.16.40:569][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.10.01-08.16.40:569][  0]LogInit: High frequency timer resolution =2.240911 MHz
+[2016.10.01-08.16.40:570][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.10.01-08.16.40:570][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.01-08.16.40:570][  0]LogMemory: Process Physical Memory: 255.69 MB used, 255.69 MB peak
+[2016.10.01-08.16.40:570][  0]LogMemory: Process Virtual Memory: 260.06 MB used, 260.06 MB peak
+[2016.10.01-08.16.40:570][  0]LogMemory: Physical Memory: 4521.05 MB used, 8082.58 MB total
+[2016.10.01-08.16.40:570][  0]LogMemory: Virtual Memory: 624.57 MB used, 134217728.00 MB total
+[2016.10.01-08.16.40:810][  0]LogTextLocalizationManager: No translations for ('de-CH') exist, falling back to 'en' for localization and internationalization data.
+[2016.10.01-08.16.43:015][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.01-08.16.43:056][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 740M              ' (Feature Level 11_0)
+[2016.10.01-08.16.43:056][  0]LogD3D11RHI:       1997/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.10.01-08.16.43:066][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2016.10.01-08.16.43:066][  0]LogD3D11RHI:       112/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.10.01-08.16.43:069][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.10.01-08.16.43:069][  0]LogD3D11RHI:       0/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.10.01-08.16.43:069][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.01-08.16.43:076][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.01-08.16.43:076][  0]LogD3D11RHI:     GPU DeviceId: 0x1292 (for the marketing name, search the web for "GPU Device Id")
+[2016.10.01-08.16.43:076][  0]LogWindows: EnumDisplayDevices:
+[2016.10.01-08.16.43:077][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2016.10.01-08.16.43:079][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.10.01-08.16.43:081][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.10.01-08.16.43:083][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2016.10.01-08.16.43:083][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 740M              
+[2016.10.01-08.16.43:083][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2016.10.01-08.16.43:083][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.10.01-08.16.43:083][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.10.01-08.16.43:106][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.01-08.16.43:126][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.10.01-08.16.43:127][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Projekte/SA/VRmotion_HSR-Game/Prototyp/mitCar/Intermediate/Shaders/WorkingDirectory/10964/).
+[2016.10.01-08.16.43:127][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Joel/AppData/Local/Temp/UnrealShaderWorkingDir/A81934A1442B1446C759C3BD0E35DD3A/'.
+[2016.10.01-08.16.43:127][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.01-08.16.45:579][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.01-08.16.45:599][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.01-08.16.45:611][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.01-08.16.45:623][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.01-08.16.45:633][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.01-08.16.45:641][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.01-08.16.45:648][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.01-08.16.45:656][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.01-08.16.45:663][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.01-08.16.45:670][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.01-08.16.45:681][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.01-08.16.45:737][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.01-08.16.45:737][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.01-08.16.45:741][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.01-08.16.45:789][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.01-08.16.45:805][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.01-08.16.45:821][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.10.01-08.16.45:837][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.01-08.16.45:846][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.01-08.16.45:856][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.01-08.16.45:856][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.01-08.16.46:002][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.01-08.16.46:101][  0]LogDerivedDataCache: Loaded boot cache 0.10s 62MB C:/Users/Joel/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.10.01-08.16.46:101][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Joel/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.10.01-08.16.46:101][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Projekte/SA/VRmotion_HSR-Game/Prototyp/mitCar/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.01-08.16.46:101][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.01-08.16.46:101][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Projekte/SA/VRmotion_HSR-Game/Prototyp/mitCar/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.01-08.16.46:101][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.01-08.16.46:179][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.01-08.16.46:197][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.01-08.16.46:771][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.01-08.16.46:780][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.01-08.16.46:954][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.01-08.16.46:954][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.01-08.16.46:954][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.01-08.16.47:196][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.10.01-08.16.47:873][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: mitcar, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 1811620771
+[2016.10.01-08.16.47:928][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
+[2016.10.01-08.16.47:956][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.024033 seconds
+[2016.10.01-08.16.47:964][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2016.10.01-08.16.47:964][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
+[2016.10.01-08.16.47:964][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.01-08.16.47:976][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.01-08.16.48:252][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.01-08.16.48:252][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.01-08.16.50:215][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.10.01-08.16.50:268][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.01-08.16.50:744][  0]SourceControl: Info Source control is disabled
+[2016.10.01-08.16.51:196][  0]SourceControl: Info Source control is disabled
+[2016.10.01-08.16.51:229][  0]SourceControl: Info Source control is disabled
+[2016.10.01-08.16.51:251][  0]SourceControl: Info Source control is disabled
+[2016.10.01-08.16.52:279][  0]LogEngine: Initializing Engine...
+[2016.10.01-08.16.52:282][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.10.01-08.16.52:467][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.10.01-08.16.52:482][  0]LogInit: XAudio2 using 'Lautsprecher (Conexant 20751 SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.01-08.16.52:541][  0]LogInit: FAudioDevice initialized.
+[2016.10.01-08.16.52:630][  0]LogDerivedDataCache: Saved boot cache 0.09s 62MB C:/Users/Joel/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.10.01-08.16.52:658][  0]LogInit: Texture streaming: Enabled
+[2016.10.01-08.16.52:724][  0]LogInit: Transaction tracking system initialized
+[2016.10.01-08.16.52:759][  0]BlueprintLog: New page: Editor Load
+[2016.10.01-08.16.52:864][  0]LocalizationService: Info Localization service is disabled
+[2016.10.01-08.16.53:103][  0]LogConsoleResponse:Display: 
+[2016.10.01-08.16.53:293][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.10.01-08.16.53:293][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.01-08.16.54:119][  0]LogFileCache: Scanning file cache for directory 'E:/Projekte/SA/VRmotion_HSR-Game/Prototyp/mitCar/Content/' took 0.01s
+[2016.10.01-08.16.54:120][  0]SourceControl: Info Source control is disabled
+[2016.10.01-08.16.54:120][  0]Cmd: MAP LOAD FILE="../../../../../../Projekte/SA/VRmotion_HSR-Game/Prototyp/mitCar/Content/VehicleBP/Maps/VehicleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.01-08.16.54:122][  0]LightingResults: New page: Lighting Build
+[2016.10.01-08.16.54:138][  0]MapCheck: New page: Map Check
+[2016.10.01-08.16.54:138][  0]LightingResults: New page: Lighting Build
+[2016.10.01-08.16.55:453][  0]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2016.10.01-08.16.55:476][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.01-08.16.55:477][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.01-08.16.55:694][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 215.517ms to complete.
+[2016.10.01-08.16.55:694][  0]LogFileHelpers: Loading map 'VehicleExampleMap' took 1.574
+[2016.10.01-08.16.55:997][  0]LogCollectionManager: Loaded 0 collections in 0.003422 seconds
+[2016.10.01-08.16.56:072][  0]LogFileCache: Scanning file cache for directory 'E:/Projekte/SA/VRmotion_HSR-Game/Prototyp/mitCar/Saved/Collections/' took 0.01s
+[2016.10.01-08.16.56:072][  0]LogFileCache: Scanning file cache for directory 'E:/Projekte/SA/VRmotion_HSR-Game/Prototyp/mitCar/Content/Developers/Joel/Collections/' took 0.01s
+[2016.10.01-08.16.56:072][  0]LogFileCache: Scanning file cache for directory 'E:/Projekte/SA/VRmotion_HSR-Game/Prototyp/mitCar/Content/Collections/' took 0.01s
+[2016.10.01-08.16.56:072][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000008 seconds
+[2016.10.01-08.16.56:103][  0]LogContentBrowser: Native class hierarchy populated in 0.0293 seconds. Added 2141 classes and 415 folders.
+[2016.10.01-08.16.56:111][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.10.01-08.16.56:111][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.01-08.16.56:113][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0017 seconds. Added 12 classes and 0 folders.
+[2016.10.01-08.16.56:130][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0022 seconds. Added 0 classes and 0 folders.
+[2016.10.01-08.16.56:236][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.10.01-08.16.56:242][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.10.01-08.16.56:377][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.01-08.16.56:386][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.10.01-08.16.56:428][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0027 seconds. Added 1 classes and 2 folders.
+[2016.10.01-08.16.56:429][  0]LogLoad: (Engine Initialization) Total time: 18.69 seconds
+[2016.10.01-08.16.56:429][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.36 seconds
+[2016.10.01-08.16.56:429][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.10.01-08.16.56:429][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.10.01-08.16.56:449][  0]LogOcInput: OculusInput pre-init called
+[2016.10.01-08.16.56:497][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.10.01-08.16.56:767][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.10.01-08.16.56:935][  1]LogHttp:Warning: 000001B6BB3D3280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.10.01-08.16.56:935][  1]LogHttp:Warning: 000001B6BB3D3280: libcurl info message cache 8 (Could not resolve host: cdn.unrealengine.com)
+[2016.10.01-08.16.56:935][  1]LogHttp:Warning: 000001B6BB3D3280: libcurl info message cache 9 (Closing connection 0)
+[2016.10.01-08.16.57:108][  2]LogHttp:Warning: 000001B6DCA9BE80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.10.01-08.16.57:108][  2]LogHttp:Warning: 000001B6DCA9BE80: libcurl info message cache 8 (Could not resolve host: cdn.unrealengine.com)
+[2016.10.01-08.16.57:108][  2]LogHttp:Warning: 000001B6DCA9BE80: libcurl info message cache 9 (Closing connection 1)
+[2016.10.01-08.16.57:120][  2]LogAssetRegistry: Asset discovery search completed in 9.2146 seconds
+[2016.10.01-08.16.57:120][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.10.01-08.16.57:120][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000031 seconds (updated 0 objects)
+[2016.10.01-08.16.57:187][  3]LogHttp:Warning: 000001B6DCA98700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.10.01-08.16.57:187][  3]LogHttp:Warning: 000001B6DCA98700: libcurl info message cache 8 (Could not resolve host: cdn.unrealengine.com)
+[2016.10.01-08.16.57:187][  3]LogHttp:Warning: 000001B6DCA98700: libcurl info message cache 9 (Closing connection 2)
+[2016.10.01-08.17.51:613][817]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.10.01-08.17.56:598][928]LogHttp:Warning: 000001B6F3396200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.10.01-08.17.56:598][928]LogHttp:Warning: 000001B6F3396200: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.10.01-08.17.56:598][928]LogHttp:Warning: 000001B6F3396200: libcurl info message cache 9 (Closing connection 3)
+[2016.10.01-08.18.42:706][172]Cmd: MAP IMPORTADD FILE="../../../../../../Projekte/SA/VRmotion_HSR-Game/Prototyp/proto.obj"
+[2016.10.01-08.18.42:740][172]LogFactory: FactoryCreateFile: World with FbxSceneImportFactory (0 0 ../../../../../../Projekte/SA/VRmotion_HSR-Game/Prototyp/proto.obj)
+[2016.10.01-08.18.42:802][172]LogFbx: Loading FBX Scene from ../../../../../../Projekte/SA/VRmotion_HSR-Game/Prototyp/proto.obj
+[2016.10.01-08.18.45:095][172]LogFbx: FBX Scene Loaded Succesfully
+[2016.10.01-08.18.45:107][172]LogFbx: =================================================
+[2016.10.01-08.18.45:108][172]LogFbx: Dumping Node START [default] 
+[2016.10.01-08.18.45:108][172]LogFbx: 	Total Deformer Count -213611816.
+[2016.10.01-08.18.45:108][172]LogFbx: 	Attribute () Type (4).
+[2016.10.01-08.18.45:108][172]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2016.10.01-08.18.45:108][172]LogFbx: Dumping Node END [default]
+[2016.10.01-08.18.45:108][172]LogFbx: =================================================
+[2016.10.01-08.18.45:108][172]LogFbx: Dumping Node START [default] 
+[2016.10.01-08.18.45:108][172]LogFbx: 	Total Deformer Count -213613776.
+[2016.10.01-08.18.45:108][172]LogFbx: 	Attribute () Type (4).
+[2016.10.01-08.18.45:108][172]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2016.10.01-08.18.45:108][172]LogFbx: Dumping Node END [default]
+[2016.10.01-08.18.45:108][172]LogFbx: =================================================
+[2016.10.01-08.18.45:108][172]LogFbx: Dumping Node START [default] 
+[2016.10.01-08.18.45:108][172]LogFbx: 	Total Deformer Count -213613776.
+[2016.10.01-08.18.45:108][172]LogFbx: 	Attribute () Type (4).
+[2016.10.01-08.18.45:108][172]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2016.10.01-08.18.45:108][172]LogFbx: Dumping Node END [default]
+[2016.10.01-08.19.03:319][172]LogFbx: =================================================
+[2016.10.01-08.19.03:319][172]LogFbx: Dumping Node START [default] 
+[2016.10.01-08.19.03:319][172]LogFbx: 	Total Deformer Count -975395168.
+[2016.10.01-08.19.03:319][172]LogFbx: 	Attribute () Type (4).
+[2016.10.01-08.19.03:319][172]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2016.10.01-08.19.03:319][172]LogFbx: Dumping Node END [default]
+[2016.10.01-08.19.03:319][172]LogFbx: =================================================
+[2016.10.01-08.19.03:319][172]LogFbx: Dumping Node START [default] 
+[2016.10.01-08.19.03:319][172]LogFbx: 	Total Deformer Count -975401608.
+[2016.10.01-08.19.03:320][172]LogFbx: 	Attribute () Type (4).
+[2016.10.01-08.19.03:320][172]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2016.10.01-08.19.03:320][172]LogFbx: Dumping Node END [default]
+[2016.10.01-08.19.03:320][172]LogFbx: =================================================
+[2016.10.01-08.19.03:320][172]LogFbx: Dumping Node START [default] 
+[2016.10.01-08.19.03:320][172]LogFbx: 	Total Deformer Count -975401608.
+[2016.10.01-08.19.03:320][172]LogFbx: 	Attribute () Type (4).
+[2016.10.01-08.19.03:320][172]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2016.10.01-08.19.03:320][172]LogFbx: Dumping Node END [default]
+[2016.10.01-08.19.03:352][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/ASPHALT_0'
+[2016.10.01-08.19.03:352][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/ASPHALT_0'
+[2016.10.01-08.19.03:353][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/ASPHALT_0'
+[2016.10.01-08.19.03:384][172]LogMaterial: Missing cached shader map for material ASPHALT_0, compiling. 
+[2016.10.01-08.19.03:494][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/PAVING_STONE_0'
+[2016.10.01-08.19.03:495][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/PAVING_STONE_0'
+[2016.10.01-08.19.03:495][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/PAVING_STONE_0'
+[2016.10.01-08.19.03:513][172]LogMaterial: Missing cached shader map for material PAVING_STONE_0, compiling. 
+[2016.10.01-08.19.03:559][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/WOOD_0'
+[2016.10.01-08.19.03:559][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/WOOD_0'
+[2016.10.01-08.19.03:559][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/WOOD_0'
+[2016.10.01-08.19.03:573][172]LogMaterial: Missing cached shader map for material WOOD_0, compiling. 
+[2016.10.01-08.19.03:614][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/GRAVEL_0'
+[2016.10.01-08.19.03:615][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/GRAVEL_0'
+[2016.10.01-08.19.03:615][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/GRAVEL_0'
+[2016.10.01-08.19.03:628][172]LogMaterial: Missing cached shader map for material GRAVEL_0, compiling. 
+[2016.10.01-08.19.03:659][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/RAIL_BALLAST_DEFAULT_0'
+[2016.10.01-08.19.03:659][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/RAIL_BALLAST_DEFAULT_0'
+[2016.10.01-08.19.03:659][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/RAIL_BALLAST_DEFAULT_0'
+[2016.10.01-08.19.03:666][172]LogMaterial: Missing cached shader map for material RAIL_BALLAST_DEFAULT_0, compiling. 
+[2016.10.01-08.19.03:689][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/RAIL_DEFAULT_0'
+[2016.10.01-08.19.03:689][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/RAIL_DEFAULT_0'
+[2016.10.01-08.19.03:689][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/RAIL_DEFAULT_0'
+[2016.10.01-08.19.03:695][172]LogMaterial: Missing cached shader map for material RAIL_DEFAULT_0, compiling. 
+[2016.10.01-08.19.03:753][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/EARTH_0'
+[2016.10.01-08.19.03:754][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/EARTH_0'
+[2016.10.01-08.19.03:754][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/EARTH_0'
+[2016.10.01-08.19.03:774][172]LogMaterial: Missing cached shader map for material EARTH_0, compiling. 
+[2016.10.01-08.19.03:847][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/MAT_3_0'
+[2016.10.01-08.19.03:848][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/MAT_3_0'
+[2016.10.01-08.19.03:848][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/MAT_3_0'
+[2016.10.01-08.19.03:873][172]LogMaterial: Missing cached shader map for material MAT_3_0, compiling. 
+[2016.10.01-08.19.03:955][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/MAT_2_0'
+[2016.10.01-08.19.03:956][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/MAT_2_0'
+[2016.10.01-08.19.03:957][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/MAT_2_0'
+[2016.10.01-08.19.03:980][172]LogMaterial: Missing cached shader map for material MAT_2_0, compiling. 
+[2016.10.01-08.19.04:064][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/MAT_0_0'
+[2016.10.01-08.19.04:064][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/MAT_0_0'
+[2016.10.01-08.19.04:065][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/MAT_0_0'
+[2016.10.01-08.19.04:085][172]LogMaterial: Missing cached shader map for material MAT_0_0, compiling. 
+[2016.10.01-08.19.04:156][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/MAT_4_0'
+[2016.10.01-08.19.04:156][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/MAT_4_0'
+[2016.10.01-08.19.04:157][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/MAT_4_0'
+[2016.10.01-08.19.04:177][172]LogMaterial: Missing cached shader map for material MAT_4_0, compiling. 
+[2016.10.01-08.19.04:261][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/FIREHYDRANT_0'
+[2016.10.01-08.19.04:261][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/FIREHYDRANT_0'
+[2016.10.01-08.19.04:262][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/FIREHYDRANT_0'
+[2016.10.01-08.19.04:285][172]LogMaterial: Missing cached shader map for material FIREHYDRANT_0, compiling. 
+[2016.10.01-08.19.04:366][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/TERRAIN_DEFAULT_0'
+[2016.10.01-08.19.04:367][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/TERRAIN_DEFAULT_0'
+[2016.10.01-08.19.04:368][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/TERRAIN_DEFAULT_0'
+[2016.10.01-08.19.04:388][172]LogMaterial: Missing cached shader map for material TERRAIN_DEFAULT_0, compiling. 
+[2016.10.01-08.19.04:465][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/STEPS_DEFAULT_0'
+[2016.10.01-08.19.04:465][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/STEPS_DEFAULT_0'
+[2016.10.01-08.19.04:466][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/STEPS_DEFAULT_0'
+[2016.10.01-08.19.04:487][172]LogMaterial: Missing cached shader map for material STEPS_DEFAULT_0, compiling. 
+[2016.10.01-08.19.04:567][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/BUILDING_DEFAULT_0'
+[2016.10.01-08.19.04:568][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/BUILDING_DEFAULT_0'
+[2016.10.01-08.19.04:569][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/BUILDING_DEFAULT_0'
+[2016.10.01-08.19.04:588][172]LogMaterial: Missing cached shader map for material BUILDING_DEFAULT_0, compiling. 
+[2016.10.01-08.19.04:675][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/ROOF_DEFAULT_0'
+[2016.10.01-08.19.04:676][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/ROOF_DEFAULT_0'
+[2016.10.01-08.19.04:676][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/ROOF_DEFAULT_0'
+[2016.10.01-08.19.04:695][172]LogMaterial: Missing cached shader map for material ROOF_DEFAULT_0, compiling. 
+[2016.10.01-08.19.04:778][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/MAT_9_0'
+[2016.10.01-08.19.04:778][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/MAT_9_0'
+[2016.10.01-08.19.04:778][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/MAT_9_0'
+[2016.10.01-08.19.04:799][172]LogMaterial: Missing cached shader map for material MAT_9_0, compiling. 
+[2016.10.01-08.19.04:891][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/ROAD_MARKING_DASHED_0'
+[2016.10.01-08.19.04:892][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/ROAD_MARKING_DASHED_0'
+[2016.10.01-08.19.04:893][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/ROAD_MARKING_DASHED_0'
+[2016.10.01-08.19.04:917][172]LogMaterial: Missing cached shader map for material ROAD_MARKING_DASHED_0, compiling. 
+[2016.10.01-08.19.04:999][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/GRASS_0'
+[2016.10.01-08.19.05:000][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/GRASS_0'
+[2016.10.01-08.19.05:001][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/GRASS_0'
+[2016.10.01-08.19.05:024][172]LogMaterial: Missing cached shader map for material GRASS_0, compiling. 
+[2016.10.01-08.19.05:126][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/HEDGE_0'
+[2016.10.01-08.19.05:127][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/HEDGE_0'
+[2016.10.01-08.19.05:127][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/HEDGE_0'
+[2016.10.01-08.19.05:149][172]LogMaterial: Missing cached shader map for material HEDGE_0, compiling. 
+[2016.10.01-08.19.05:231][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/WATER_0'
+[2016.10.01-08.19.05:232][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/WATER_0'
+[2016.10.01-08.19.05:232][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/WATER_0'
+[2016.10.01-08.19.05:259][172]LogMaterial: Missing cached shader map for material WATER_0, compiling. 
+[2016.10.01-08.19.05:346][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/MAT_5_0'
+[2016.10.01-08.19.05:346][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/MAT_5_0'
+[2016.10.01-08.19.05:346][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/MAT_5_0'
+[2016.10.01-08.19.05:368][172]LogMaterial: Missing cached shader map for material MAT_5_0, compiling. 
+[2016.10.01-08.19.05:445][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/BRIDGE_DEFAULT_0'
+[2016.10.01-08.19.05:445][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/BRIDGE_DEFAULT_0'
+[2016.10.01-08.19.05:446][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/BRIDGE_DEFAULT_0'
+[2016.10.01-08.19.05:467][172]LogMaterial: Missing cached shader map for material BRIDGE_DEFAULT_0, compiling. 
+[2016.10.01-08.19.05:553][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/RED_ROAD_MARKING_0'
+[2016.10.01-08.19.05:554][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/RED_ROAD_MARKING_0'
+[2016.10.01-08.19.05:555][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/RED_ROAD_MARKING_0'
+[2016.10.01-08.19.05:578][172]LogMaterial: Missing cached shader map for material RED_ROAD_MARKING_0, compiling. 
+[2016.10.01-08.19.05:667][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/GLASS_0'
+[2016.10.01-08.19.05:668][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/GLASS_0'
+[2016.10.01-08.19.05:669][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/GLASS_0'
+[2016.10.01-08.19.05:692][172]LogMaterial: Missing cached shader map for material GLASS_0, compiling. 
+[2016.10.01-08.19.05:786][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/TUNNEL_DEFAULT_0'
+[2016.10.01-08.19.05:786][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/TUNNEL_DEFAULT_0'
+[2016.10.01-08.19.05:787][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/TUNNEL_DEFAULT_0'
+[2016.10.01-08.19.05:811][172]LogMaterial: Missing cached shader map for material TUNNEL_DEFAULT_0, compiling. 
+[2016.10.01-08.19.05:898][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/STEEL_0'
+[2016.10.01-08.19.05:898][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/STEEL_0'
+[2016.10.01-08.19.05:899][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/STEEL_0'
+[2016.10.01-08.19.05:920][172]LogMaterial: Missing cached shader map for material STEEL_0, compiling. 
+[2016.10.01-08.19.06:017][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/MAT_1_0'
+[2016.10.01-08.19.06:018][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/MAT_1_0'
+[2016.10.01-08.19.06:019][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/MAT_1_0'
+[2016.10.01-08.19.06:044][172]LogMaterial: Missing cached shader map for material MAT_1_0, compiling. 
+[2016.10.01-08.19.06:144][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/ENTRANCE_DEFAULT_0'
+[2016.10.01-08.19.06:145][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/ENTRANCE_DEFAULT_0'
+[2016.10.01-08.19.06:146][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/ENTRANCE_DEFAULT_0'
+[2016.10.01-08.19.06:168][172]LogMaterial: Missing cached shader map for material ENTRANCE_DEFAULT_0, compiling. 
+[2016.10.01-08.19.06:259][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/MAT_8_0'
+[2016.10.01-08.19.06:260][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/MAT_8_0'
+[2016.10.01-08.19.06:260][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/MAT_8_0'
+[2016.10.01-08.19.06:285][172]LogMaterial: Missing cached shader map for material MAT_8_0, compiling. 
+[2016.10.01-08.19.06:370][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/MAT_11_0'
+[2016.10.01-08.19.06:370][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/MAT_11_0'
+[2016.10.01-08.19.06:371][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/MAT_11_0'
+[2016.10.01-08.19.06:395][172]LogMaterial: Missing cached shader map for material MAT_11_0, compiling. 
+[2016.10.01-08.19.06:481][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/CONCRETE_0'
+[2016.10.01-08.19.06:482][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/CONCRETE_0'
+[2016.10.01-08.19.06:483][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/CONCRETE_0'
+[2016.10.01-08.19.06:507][172]LogMaterial: Missing cached shader map for material CONCRETE_0, compiling. 
+[2016.10.01-08.19.06:589][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/BUS_STOP_SIGN_0'
+[2016.10.01-08.19.06:590][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/BUS_STOP_SIGN_0'
+[2016.10.01-08.19.06:590][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/BUS_STOP_SIGN_0'
+[2016.10.01-08.19.06:612][172]LogMaterial: Missing cached shader map for material BUS_STOP_SIGN_0, compiling. 
+[2016.10.01-08.19.06:700][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/PLASTIC_0'
+[2016.10.01-08.19.06:701][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/PLASTIC_0'
+[2016.10.01-08.19.06:702][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/PLASTIC_0'
+[2016.10.01-08.19.06:724][172]LogMaterial: Missing cached shader map for material PLASTIC_0, compiling. 
+[2016.10.01-08.19.06:810][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/SAND_0'
+[2016.10.01-08.19.06:810][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/SAND_0'
+[2016.10.01-08.19.06:811][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/SAND_0'
+[2016.10.01-08.19.06:834][172]LogMaterial: Missing cached shader map for material SAND_0, compiling. 
+[2016.10.01-08.19.06:918][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/MAT_12_0'
+[2016.10.01-08.19.06:919][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/MAT_12_0'
+[2016.10.01-08.19.06:919][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/MAT_12_0'
+[2016.10.01-08.19.06:941][172]LogMaterial: Missing cached shader map for material MAT_12_0, compiling. 
+[2016.10.01-08.19.07:026][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/GLASS_ROOF_0'
+[2016.10.01-08.19.07:026][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/GLASS_ROOF_0'
+[2016.10.01-08.19.07:027][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/GLASS_ROOF_0'
+[2016.10.01-08.19.07:046][172]LogMaterial: Missing cached shader map for material GLASS_ROOF_0, compiling. 
+[2016.10.01-08.19.07:146][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/MAT_10_0'
+[2016.10.01-08.19.07:147][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/MAT_10_0'
+[2016.10.01-08.19.07:148][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/MAT_10_0'
+[2016.10.01-08.19.07:175][172]LogMaterial: Missing cached shader map for material MAT_10_0, compiling. 
+[2016.10.01-08.19.07:258][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/MAT_7_0'
+[2016.10.01-08.19.07:259][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/MAT_7_0'
+[2016.10.01-08.19.07:259][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/MAT_7_0'
+[2016.10.01-08.19.07:282][172]LogMaterial: Missing cached shader map for material MAT_7_0, compiling. 
+[2016.10.01-08.19.07:363][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/MAT_6_0'
+[2016.10.01-08.19.07:364][172]LogLinker:Warning: Can't find file '/Game/VehicleBP/Maps/MAT_6_0'
+[2016.10.01-08.19.07:365][172]LogLinker: Can't find file '/Game/VehicleBP/Maps/MAT_6_0'
+[2016.10.01-08.19.07:387][172]LogMaterial: Missing cached shader map for material MAT_6_0, compiling. 
+[2016.10.01-08.19.07:470][172]LogFbx:Warning: Triangulating static mesh default
+[2016.10.01-08.19.08:392][172]LogStaticMesh: Building static mesh default...
+[2016.10.01-08.19.09:103][172]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.10.01-08.19.18:499][172]LogStaticMesh: Built static mesh [10.11s] /Game/VehicleBP/Maps/default.default
+[2016.10.01-08.19.19:215][172]LogStaticMesh:Warning: default has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2016.10.01-08.19.24:015][172]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0068 seconds. Added 112 classes and 0 folders.
+[2016.10.01-08.19.33:959][172]LogCrashTracker: 
+
+
+[2016.10.01-08.19.33:959][172]LogCrashTracker: 
+
+
+[2016.10.01-08.19.33:959][172]LogWindows:Error: === Critical error: ===
+[2016.10.01-08.19.33:959][172]LogWindows:Error: 
+[2016.10.01-08.19.33:959][172]LogWindows:Error: Fatal error!
+[2016.10.01-08.19.33:959][172]LogWindows:Error: 
+[2016.10.01-08.19.33:959][172]LogWindows:Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffff
+[2016.10.01-08.19.33:959][172]LogWindows:Error: 
+[2016.10.01-08.19.33:959][172]LogWindows:Error: UE4Editor-Core.dll!FString::operator=() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\public\containers\unrealstring.h:1686]
+[2016.10.01-08.19.33:959][172]LogWindows:Error: UE4Editor-UnrealEd.dll!UFbxSceneImportFactory::FactoryCreateBinary() [d:\build\++ue4+release-4.13+compile\sync\engine\source\editor\unrealed\private\fbx\fbxsceneimportfactory.cpp:1027]
+[2016.10.01-08.19.33:959][172]LogWindows:Error: UE4Editor-UnrealEd.dll!UFbxSceneImportFactory::FactoryCreateBinary() [d:\build\++ue4+release-4.13+compile\sync\engine\source\editor\unrealed\private\fbx\fbxsceneimportfactory.cpp:807]
+[2016.10.01-08.19.33:959][172]LogWindows:Error: UE4Editor-UnrealEd.dll!UFactory::FactoryCreateFile() [d:\build\++ue4+release-4.13+compile\sync\engine\source\editor\unrealed\private\factories\factory.cpp:72]
+[2016.10.01-08.19.33:959][172]LogWindows:Error: UE4Editor-UnrealEd.dll!UFactory::ImportObject() [d:\build\++ue4+release-4.13+compile\sync\engine\source\editor\unrealed\private\factories\factory.cpp:143]
+[2016.10.01-08.19.33:960][172]LogWindows:Error: UE4Editor-UnrealEd.dll!UFactory::StaticImportObject() [d:\build\++ue4+release-4.13+compile\sync\engine\source\editor\unrealed\private\factories\factory.cpp:386]
+[2016.10.01-08.19.33:960][172]LogWindows:Error: UE4Editor-UnrealEd.dll!UFactory::StaticImportObject() [d:\build\++ue4+release-4.13+compile\sync\engine\source\editor\unrealed\private\factories\factory.cpp:319]
+[2016.10.01-08.19.33:960][172]LogWindows:Error: UE4Editor-UnrealEd.dll!UEditorEngine::Map_Import() [d:\build\++ue4+release-4.13+compile\sync\engine\source\editor\unrealed\private\editorserver.cpp:2646]
+[2016.10.01-08.19.33:960][172]LogWindows:Error: UE4Editor-UnrealEd.dll!UEditorEngine::HandleMapCommand() [d:\build\++ue4+release-4.13+compile\sync\engine\source\editor\unrealed\private\editorserver.cpp:5998]
+[2016.10.01-08.19.33:960][172]LogWindows:Error: UE4Editor-UnrealEd.dll!UEditorEngine::Exec() [d:\build\++ue4+release-4.13+compile\sync\engine\source\editor\unrealed\private\editorserver.cpp:5479]
+[2016.10.01-08.19.33:960][172]LogWindows:Error: UE4Editor-UnrealEd.dll!UUnrealEdEngine::Exec() [d:\build\++ue4+release-4.13+compile\sync\engine\source\editor\unrealed\private\unrealedsrv.cpp:624]
+[2016.10.01-08.19.33:960][172]LogWindows:Error: UE4Editor-UnrealEd.dll!FEditorFileUtils::Import() [d:\build\++ue4+release-4.13+compile\sync\engine\source\editor\unrealed\private\filehelpers.cpp:1080]
+[2016.10.01-08.19.33:960][172]LogWindows:Error: UE4Editor-UnrealEd.dll!FEditorFileUtils::Import() [d:\build\++ue4+release-4.13+compile\sync\engine\source\editor\unrealed\private\filehelpers.cpp:1037]
+[2016.10.01-08.19.33:960][172]LogWindows:Error: UE4Editor-LevelEditor.dll!TBaseStaticDelegateInstance<void __cdecl(void)>::ExecuteIfSafe() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:1017]
+[2016.10.01-08.19.33:960][172]LogWindows:Error: UE4Editor-Slate.dll!FUICommandList::ExecuteAction() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:92]
+[2016.10.01-08.19.33:960][172]LogWindows:Error: UE4Editor-Slate.dll!SMenuEntryBlock::OnClicked() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\slate\private\framework\multibox\smenuentryblock.cpp:1027]
+[2016.10.01-08.19.33:960][172]LogWindows:Error: UE4Editor-Slate.dll!SMenuEntryBlock::OnMenuItemButtonClicked() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\slate\private\framework\multibox\smenuentryblock.cpp:987]
+[2016.10.01-08.19.33:960][172]LogWindows:Error: UE4Editor-Slate.dll!TMemberFunctionCaller<SMenuEntryBlock,FReply (__cdecl SMenuEntryBlock::*)(void) __ptr64>::operator()<>() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\public\delegates\delegateinstanceinterface.h:161]
+[2016.10.01-08.19.33:960][172]LogWindows:Error: UE4Editor-Slate.dll!TTupleImpl<TIntegerSequence<unsigned int> >::ApplyAfter<TMemberFunctionCaller<SMenuEntryBlock,FReply (__cdecl SMenuEntryBlock::*)(void) __ptr64> >() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\public\delegates\tuple.h:115]
+[2016.10.01-08.19.33:960][172]LogWindows:Error: UE4Editor-Slate.dll!TBaseSPMethodDelegateInstance<0,SMenuEntryBlock,0,FReply __cdecl(void)>::Execute() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:317]
+[2016.10.01-08.19.33:960][172]LogWindows:Error: UE4Editor-Slate.dll!TBaseDelegate<FReply>::Execute() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:521]
+[2016.10.01-08.19.33:961][172]LogWindows:Error: UE4Editor-Slate.dll!SButton::OnMouseButtonUp() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\slate\private\widgets\input\sbutton.cpp:278]
+[2016.10.01-08.19.33:961][172]LogWindows:Error: UE4Editor-Slate.dll!SMenuEntryButton::OnMouseButtonUp() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\slate\private\framework\multibox\smenuentryblock.cpp:385]
+[2016.10.01-08.19.33:961][172]LogWindows:Error: UE4Editor-Slate.dll!<lambda_8d0e9a1da76abd0a756a3a9d775f5ed1>::operator()() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4901]
+[2016.10.01-08.19.33:961][172]LogWindows:Error: UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_8d0e9a1da76abd0a756a3a9d775f5ed1> >() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:215]
+[2016.10.01-08.19.33:961][172]LogWindows:Error: UE4Editor-Slate.dll!FSlateApplication::RoutePointerUpEvent() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4890]
+[2016.10.01-08.19.33:961][172]LogWindows:Error: UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5348]
+[2016.10.01-08.19.33:961][172]LogWindows:Error: UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5328]
+[2016.10.01-08.19.33:961][172]LogWindows:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:1584]
+[2016.10.01-08.19.33:961][172]LogWindows:Error: UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:1930]
+[2016.10.01-08.19.33:961][172]LogWindows:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:747]
+[2016.10.01-08.19.33:961][172]LogWindows:Error: UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:669]
+[2016.10.01-08.19.33:961][172]LogWindows:Error: USER32.dll
+[2016.10.01-08.19.33:961][172]LogWindows:Error: USER32.dll
+[2016.10.01-08.19.33:961][172]LogWindows:Error: UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:905]
+[2016.10.01-08.19.33:961][172]LogWindows:Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:2788]
+[2016.10.01-08.19.33:961][172]LogWindows:Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\launch\private\launch.cpp:156]
+[2016.10.01-08.19.33:962][172]LogWindows:Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+[2016.10.01-08.19.33:962][172]LogWindows:Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+[2016.10.01-08.19.33:962][172]LogWindows:Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:264]
+[2016.10.01-08.19.33:962][172]LogWindows:Error: KERNEL32.DLL
+[2016.10.01-08.19.33:962][172]LogWindows:Error: ntdll.dll
+[2016.10.01-08.19.33:962][172]LogWindows:Error: ntdll.dll
+[2016.10.01-08.19.33:962][172]LogWindows:Error: 
+[2016.10.01-08.19.34:109][172]LogExit: Executing StaticShutdownAfterError
+[2016.10.01-08.19.34:170][172]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.10.01-08.19.34:171][172]Log file closed, 10/01/16 10:19:34
