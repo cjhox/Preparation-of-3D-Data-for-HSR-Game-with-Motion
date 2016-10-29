@@ -1758,10 +1758,10 @@
   <node id='2776832273' timestamp='2016-03-14T16:01:58Z' uid='2744797' user='Sibo Dolem' visible='true' version='2' changeset='37824206' lat='47.2232483' lon='8.81706' />
   <node id='2776832275' timestamp='2016-10-20T13:39:23Z' uid='4642341' user='cjhox' visible='true' version='3' changeset='43032623' lat='47.2234173' lon='8.8166465'>
     <tag k='amenity' v='bench' />
-    <tag k='backrest' v='no' />
+    <tag k='backrest' v='yes' />
     <tag k='colour' v='gray' />
     <tag k='direction' v='320' />
-    <tag k='material' v='stone' />
+    <tag k='surface' v='concrete' />
   </node>
   <node id='2776832278' timestamp='2016-03-14T16:01:58Z' uid='2744797' user='Sibo Dolem' visible='true' version='2' changeset='37824206' lat='47.223234' lon='8.8170782' />
   <node id='2776832282' timestamp='2016-10-20T13:39:23Z' uid='4642341' user='cjhox' visible='true' version='3' changeset='43032623' lat='47.2234427' lon='8.8167018'>
@@ -1769,15 +1769,14 @@
     <tag k='backrest' v='no' />
     <tag k='colour' v='gray' />
     <tag k='direction' v='320' />
-    <tag k='material' v='stone' />
+    <tag k='material' v='BRICK' />
   </node>
   <node id='2776832285' timestamp='2016-10-20T13:39:23Z' uid='4642341' user='cjhox' visible='true' version='6' changeset='43032623' lat='47.2233769' lon='8.8170079'>
     <tag k='amenity' v='bench' />
-    <tag k='backrest' v='no' />
+    <tag k='backrest' v='yes' />
     <tag k='colour' v='gray' />
     <tag k='direction' v='320' />
-    <tag k='material' v='asphalt' />
-    <tag k='min_height' v='0.5' />
+    <tag k='surface' v='asphalt' />
   </node>
   <node id='2776832293' timestamp='2016-03-14T16:01:58Z' uid='2744797' user='Sibo Dolem' visible='true' version='2' changeset='37824206' lat='47.223207' lon='8.8171133' />
   <node id='2791958638' timestamp='2016-10-20T09:57:17Z' uid='4642341' user='cjhox' visible='true' version='3' changeset='43028212' lat='47.2234083' lon='8.8169125'>
@@ -2102,8 +2101,7 @@
     <tag k='backrest' v='no' />
     <tag k='colour' v='gray' />
     <tag k='direction' v='320' />
-    <tag k='material' v='stone' />
-    <tag k='min_height' v='0.5' />
+    <tag k='material' v='concrete' />
   </node>
   <node id='4456229638' timestamp='2016-10-20T09:57:16Z' uid='4642341' user='cjhox' visible='true' version='1' changeset='43028212' lat='47.2226692' lon='8.8169462' />
   <node id='4456229642' timestamp='2016-10-20T09:57:16Z' uid='4642341' user='cjhox' visible='true' version='1' changeset='43028212' lat='47.22281' lon='8.8172956' />
