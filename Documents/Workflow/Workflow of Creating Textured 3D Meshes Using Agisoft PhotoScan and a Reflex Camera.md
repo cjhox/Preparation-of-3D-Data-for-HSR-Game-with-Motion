@@ -1,5 +1,4 @@
 # Workflow of Creating Textured 3D Meshes Using Agisoft PhotoScan and a Reflex Camera (Approach 2a)
--------------------------------------------------------------------------------------------------
 
 Notice: The statements and principles of this chapter are based on the Agisoft
 PhotoScan user manual[^1] and conversation with Marianne Deuber from
